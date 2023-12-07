@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: meact
+spec:
+  template:
+    metadata:
+      name: meact-pod
+    spec:
+      containers:
+      - name: meact
+        image: meact:local
+        imagePullPolicy: Never
+      restartPolicy: Never
