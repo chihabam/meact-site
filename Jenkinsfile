@@ -1,6 +1,6 @@
 node {
     // some block
-    git branch: 'develop', url: 'https://github.com/chihabam/meact-site.git'
+    git branch: 'main', url: 'https://github.com/chihabam/meact-site.git'
 
 sh '''npm install
 npm run build
