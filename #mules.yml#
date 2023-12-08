@@ -1,0 +1,10 @@
+pipeline:
+  agent: any
+    node:
+      git branch: 'main'
+      url: 'https://github.com/chihabam/meact-site.git'
+      script :
+      
+- npm install
+- npm run build
+- tar -czvf meact-archive.tar.gz build'''
