@@ -8,7 +8,7 @@ tar -czvf meact-archive.tar.gz build'''
 
 archiveArtifacts artifacts: 'meact-archive.tar.gz*', followSymlinks: false
 
-sh '''serve -s build'''
+// sh '''serve -s build'''
 }
 
  
